@@ -47,7 +47,7 @@ class TasksController < ApplicationController
     redirect_to tasks_url
   end
   
-  
+  private
 
   # = セキリティー    
   def task_params
